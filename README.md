@@ -78,7 +78,7 @@ VADER is specifically designed to handle social media text, including slang, acr
 - Business Class Focus: One positive Business Class review suggests potential; invest in consistent premium service.
 - Customer Service Training: Complaints about staff (e.g., check-in issues in Guangzhou) indicate a need for better training.
 
-### Why British_Airline Should Considerations
+### Why British_Airline Should Take Note
 
 - Cost Savings: Reducing delays/cancellations lowers compensation costs (e.g., EU261 claims).
 - Revenue Improvement: Positive sentiment in Solo Leisure and Business Class could attract high-value customers, increasing ticket sales.
@@ -87,17 +87,19 @@ VADER is specifically designed to handle social media text, including slang, acr
 ### N.B
 This project only required that i use a power point slides to report my findings.
 
-### Conclusion
-The project provides a framework for sentiment analysis via web scraping, text cleaning, and visualization. Future work
-- Implement explicit VADER analysis.
-- Analyze by Type of Traveller or Seat Type.
-- Handle missing Aircraft data.
-- Apply topic modeling for themes.
+### Limitations
+- Impact: Limits analysis of aircraft-specific issues (e.g., comfort, maintenance). Sentiment analysis relies on text, so missing aircraft data has minimal impact on overall findings but restricts granular insights.
+- Scraping 100 reviews is small and manual and slow.
 
-### Dependencies
+  ### Dependencies
 - pandas: Data manipulation.
 - numpy: Numerical operations.
 - seaborn, matplotlib: Visualization.
 - re: Text cleaning.
 - requests ,BeautifulSoup: Web scraping.
+
+### Conclusion
+British Airlines reviews (100 sampled) show 90% negative sentiment (based on "no" recommendation), with Family and Couple Leisure travelers most dissatisfied. Key issues include delays, cancellations, and poor customer service. Implementing automated sentiment analysis and targeting service improvements can enhance customer satisfaction and brand reputation
+
+
 
